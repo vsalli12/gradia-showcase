@@ -45,10 +45,8 @@ def generateInfo():
             "fields": totalTheses[key].get("fields", [])
         }
     print("Json fetched!")
-    #print(jsonLike)
     return jsonLike
-    #with open("insights.json", "w", encoding="utf-8") as f:
-    #    json.dump(jsonLike, f, ensure_ascii=False, indent=2)
+
 
 
 if __name__ == "__main__":

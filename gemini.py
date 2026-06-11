@@ -3,42 +3,42 @@ from google import genai
 
 def generateDatapoints(payload, PATH_MODEL_RESPONSE):
     prompt = f"""
-        You are generating UI tooltips for each year of the following data.
+    You are generating structured UI tooltip data.
 
-        Return ONLY 5 short bullet points PER YEAR.
+    STRICT OUTPUT RULES (must be followed exactly):
+    - Output MUST start with &2010 (or first year in dataset)
+    - Output MUST contain ONLY year blocks in format specified below
+    - NO text before first year block
+    - NO text after last year block
+    - NO headings, no explanations, no summaries
+    - NO additional formatting or characters outside defined structure
+    - Any violation makes output invalid
 
-        Each bullet must be:
-        - max 18 words
-        - factual or clearly inferential
-        - no preamble, no summary, no explanation sections
+    Each year block must follow EXACT format:
 
-        Focus:
-        - dominant structure
-        - biggest change signals
-        - key imbalance
-        
-        Do not focus on a single university or field, but rather the overall structure and changes in the data.
+    &YEAR
+    Bullet 1
+    Bullet 2
+    Bullet 3
+    Bullet 4
+    Bullet 5
 
-        Construct your answer based on the following example. Do not format the bullet points to have either -, * or similar.
-        &2015
-        Bullet 1
-        Bullet 2
-        Bullet 3
-        Bullet 4
-        Bullet 5
-        &2016
-        Bullet 1
-        Bullet 2
-        Bullet 3
-        Bullet 4
-        Bullet 5
-        ...
+    Rules for bullets:
+    - max 18 words
+    - no prefixes (-, *, numbers)
+    - no empty lines
+    - no extra formatting
+    - focus on trends and structural changes across years
 
-        DATA:
-        {payload}
+    DATA:
+    {payload}
     """
     KEY = os.getenv("GENAI_API_KEY")
-    print(KEY)
+    if not KEY:
+        print("No API key. Using a pregenerated response.")
+        with open(PATH_MODEL_RESPONSE, "r", encoding="utf-8") as f:
+            return f.read()
+
     
     client = genai.Client(
         api_key=KEY

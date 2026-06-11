@@ -143,8 +143,6 @@ def makePayload(PATH_DATA, asDict = False):
         finalPayload += str(year) + "\n" + payload
         payloads[int(year)] = payload
 
-    print(totalTheses)
-
     if asDict:
         return payloads, totalTheses
     return finalPayload, totalTheses
