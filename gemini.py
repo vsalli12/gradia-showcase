@@ -29,6 +29,7 @@ def generateDatapoints(payload, PATH_MODEL_RESPONSE):
     - no empty lines
     - no extra formatting
     - focus on trends and structural changes across years
+    - Translate field and university names to English, but keep them concise
 
     DATA:
     {payload}
@@ -36,8 +37,7 @@ def generateDatapoints(payload, PATH_MODEL_RESPONSE):
     KEY = os.getenv("GENAI_API_KEY")
     if not KEY:
         print("No API key. Using a pregenerated response.")
-        with open(PATH_MODEL_RESPONSE, "r", encoding="utf-8") as f:
-            return f.read()
+        return fallBackToCache(PATH_MODEL_RESPONSE)
 
     
     client = genai.Client(
@@ -49,7 +49,36 @@ def generateDatapoints(payload, PATH_MODEL_RESPONSE):
         contents=prompt
     )
     print("Done!")
+
+    DP_DICT = parseGeminiResponse(response.text)
+    if DP_DICT is None:
+        print("Falling back to cached response due to parsing error.")
+        DP_DICT = fallBackToCache(PATH_MODEL_RESPONSE)
+
+
+    
+    print("Parsing done!")
+
     with open(PATH_MODEL_RESPONSE, "w", encoding="utf-8") as f:
         f.write(response.text)
 
-    return response.text
+    return DP_DICT
+
+def parseGeminiResponse(response):
+    DATAPOINTS = response.split("&")
+    DP_DICT = {}
+    try:
+        for i, dp in enumerate(DATAPOINTS):
+            if dp.strip():
+                lines = dp.strip().split("\n")
+                year = int(lines[0].strip())
+                bullets = [line.strip() for line in lines[1:] if line.strip()]
+                DP_DICT[year] = bullets
+        return DP_DICT
+    except Exception as e:
+        print(f"Error parsing Gemini response: {e}")
+        return None
+
+def fallBackToCache(PATH_MODEL_RESPONSE):
+    with open(PATH_MODEL_RESPONSE, "r", encoding="utf-8") as f:
+        return parseGeminiResponse(f.read())

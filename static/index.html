@@ -151,7 +151,7 @@ async function init() {
 
         const insight = data[year].insight;
         document.getElementById("insights").innerHTML =
-            `<h3>${year}</h3><ul>` +
+            `<h3>AI Generated bullet points: ${year}</h3><ul>` +
             insight.map(x => `<li>${x}</li>`).join("") +
             "</ul>";
     }

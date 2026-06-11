@@ -6,6 +6,7 @@ import pandas as pd
 
 def fetchData(PATH_DATA):
 
+    
     limit = 5000
 
     datagroup = "opinnaytetyot"
@@ -21,8 +22,18 @@ def fetchData(PATH_DATA):
         "Accept": "application/json",
         #"Caller-Id": "viliam sälli"
     }
-    maxLineCount = requests.get(lineCountURL, headers=HEADERS).json()
+    try:
+        maxLineCount = requests.get(lineCountURL, headers=HEADERS, timeout=10)
+        maxLineCount.raise_for_status()
+        maxLineCount = maxLineCount.json()
+    except (requests.RequestException, ValueError): # Catching both network and JSON parsing errors
+        print("Failed to fetch line count. Exiting.")
+        return
 
+    if not isinstance(maxLineCount, int): # Sanity check for the count value
+        print("Invalid line count. Exiting.")
+        return
+    
     counter = 0
 
     allData = []
@@ -45,7 +56,7 @@ def fetchData(PATH_DATA):
 
         if response is None:
             print(f"Request failed after {requestTries} attempts. Exiting.")
-            sys.exit(0)
+            return
 
         allData.extend(response)
 

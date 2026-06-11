@@ -1,111 +1,111 @@
 &2010
-Metropolia leads with a ten percent share of all theses produced.
-Sosiaali- and terveysala dominates as the primary field for thesis research.
-Tekniikka and liikenne remains the second largest category of study.
-Kulttuuriala maintains a significant presence within the top research fields.
-Educational volume is concentrated in the top ten universities nationwide.
+Metropolia UAS led with 10% of total output
+Health and welfare dominated with nearly one-third of all thesis production
+Engineering and technology accounted for nearly one-quarter of output
+Business and administration studies maintained a steady 20% sector share
+Arts and culture output remained strong at 8.6% of total volume
 
 &2011
-Oulun ammattikorkeakoulu rises to the top position in thesis output volume.
-Metropolia falls to the second position in national thesis rankings.
-Sosiaali- and terveysala remains the dominant academic field for students.
-Kulttuuriala sees a slight increase in its total thesis share.
-Field distributions show high stability across major study categories.
+Oulu UAS displaced Metropolia for the top position
+Health and welfare share increased to 33% of total output
+Engineering remained the second largest field of study
+Arts and culture declined slightly from the previous year
+Business and administrative sciences sustained steady production levels
 
 &2012
-Metropolia regains the leading position for total thesis production share.
-Tampereen ammattikorkeakoulu shows sustained growth in output and rankings.
-Sosiaali- and terveysala continues to drive over thirty percent of total production.
-Yhteiskuntatieteiden and liiketalouden fields experience moderate growth in share.
-The top tier universities maintain consistent research output percentages.
+Metropolia UAS reclaimed the position of highest thesis volume
+Health and welfare sector reached a 33.7% share of production
+Engineering and technology share experienced a slight decline to 23.8%
+Business and administration reached 20.8% of total output
+Education and humanities began showing consistent growth in absolute figures
 
 &2013
-Metropolia cements its position as the top university for thesis completion.
-Kulttuuriala reaches a peak share of output during this period.
-Sosiaali- and terveysala remains the most productive field for research.
-Yhteiskuntatieteiden and liiketalouden fields continue to expand their influence.
-University rankings demonstrate stability among the top five institutions.
+Metropolia maintained its leading position among universities
+Health and welfare output remained the largest subject area
+Business and administration continued to grow in relative popularity
+Arts and culture experienced a slight uptick in volume
+Engineering output remained stable at 24% share
 
 &2014
-Metropolia continues to lead with over ten percent of national thesis output.
-Yhteiskuntatieteiden and liiketalouden fields see a steady upward trend in share.
-Luonnontieteiden ala output increases compared to previous annual data.
-Top universities show minimal changes in their relative thesis shares.
-Sosiaali- and terveysala maintains its position as the clear primary focus.
+Metropolia remained the leading producer of academic theses
+Health and welfare maintained a one-third share of all research
+Business and administration reached a new high of 21.2%
+Computer science began showing initial signs of increasing interest
+Engineering sector output remained consistent across institutions
 
 &2015
-Metropolia remains the dominant institution for student thesis completion.
-Sosiaali- and terveysala accounts for over one-third of all academic output.
-Tekniikan and liikenteen ala continues to provide significant research volume.
-Laurea and LAB show strong competition in the mid-tier rankings.
-University sector distributions remain heavily skewed toward major urban institutions.
+Metropolia solidified its top ranking with an 11.1% share
+Health and welfare research reached 34.4% of total volume
+Engineering represented roughly a quarter of all thesis output
+Business and administration remained a critical pillar of study
+Tourism and services maintained a steady 6.5% market share
 
 &2016
-Metropolia increases its lead with a record eleven percent share.
-Terveys- and hyvinvointialat emerges as the new primary classification for research.
-Kauppa and hallinto replaces earlier business classifications in the data.
-Kasvatusalat becomes a distinct but smaller field of academic reporting.
-Shift in reporting categories streamlines field-based data presentation.
+Metropolia extended its lead to 11.7% of total research output
+Health and wellbeing sectors consolidated as the primary field
+Business and administration studies shifted toward a more unified classification
+Engineering output showed a slight relative decline in sector share
+Computing and information technology emerged as a distinct major category
 
 &2017
-Terveys- and hyvinvointialat reaches a high of thirty-seven percent share.
-Metropolia continues to dominate with over twelve percent of total output.
-Laurea and Tampereen show significant competition for third place rankings.
-Tekniikan alat share experiences a slight decline in relative importance.
-Kasvatusalat sees growth in its share of total produced theses.
+Metropolia UAS reached 12.4% of total institutional output
+Health and wellbeing research surged to 37.2% of all theses
+Engineering output experienced a decrease in relative sector dominance
+Computer science maintained a solid share of total research output
+Education and teacher training began gaining more institutional focus
 
 &2018
-Metropolia maintains the largest thesis volume among Finnish universities.
-Terveys- and hyvinvointialat remains the central focus of academic research.
-Tietojenkäsittely and tietoliikenne emerge as rapidly growing fields of study.
-Tekniikan alat sees a recovery in its annual percentage share.
-Tampereen ammattikorkeakoulu enters the top three university rankings.
+Metropolia maintained the top institutional position
+Health and wellbeing continued to dominate with 36.7% share
+Engineering and technology regained some momentum in research output
+Computing and telecommunications grew to 7% of total volume
+Arts and culture research stabilized below 5%
 
 &2019
-Metropolia sees a slight dip in output share yet remains first.
-Tietojenkäsittely and tietoliikenne continue to capture a larger thesis share.
-Terveys- and hyvinvointialat accounts for over one-third of all theses.
-University output remains concentrated in the largest institutions.
-Kasvatusalat output shows stability despite minor annual fluctuations.
+Metropolia remained the leader in total research volume
+Health and welfare output slightly decreased but stayed dominant
+Business and administration remained steady at 20.7%
+Computing and telecommunications saw continued steady growth
+Engineering remained the third largest field of study
 
 &2020
-Metropolia retains leadership despite shifts in university production shares.
-Kauppa and hallinto fields show a significant rise in total share.
-Terveys- and hyvinvointialat remains the most popular field of research.
-Tampereen and Turun compete closely for the third university spot.
-Overall field stability persists throughout the pandemic period.
+Metropolia led with 11.3% of total thesis production
+Business, administration, and law grew to 23.1% of output
+Health and wellbeing remained the largest field despite a small dip
+Computer science maintained a consistent 7.4% share
+Engineering began to decline relative to other expanding fields
 
 &2021
-Metropolia leads with an eleven percent share of academic research.
-Haaga-Helia moves to the second position in university output rankings.
-Terveys- and hyvinvointialat rises back toward its historic peak share.
-Tietojenkäsittely and tietoliikenne demonstrate sustained growth in importance.
-University rankings show increased volatility in the second tier.
+Metropolia UAS continued its long-term dominance in volume
+Health and welfare saw a rebound to 35.8% of research
+Business and legal studies remained very strong at 22.8%
+Computing and IT continued its steady upward trajectory
+Engineering share stabilized below 20% of total production
 
 &2022
-Metropolia remains the top university despite a slight percentage drop.
-Turun ammattikorkeakoulu rises to fourth place in thesis volume.
-Kauppa and hallinto fields maintain a strong position above twenty percent.
-Tietojenkäsittely and tietoliikenne hold a consistent share of research.
-Oulun ammattikorkeakoulu enters the top eight university list.
+Metropolia retained the top rank among Finnish universities
+Health and wellbeing remained the clear leader in subject distribution
+Business, administration, and law sustained a 23% share
+Computing continued to grow as a vital academic field
+Engineering and technology maintained a stable 19% presence
 
 &2023
-Laurea rises to second place in total national thesis volume.
-Metropolia continues to head the list of productive universities.
-Tietojenkäsittely and tietoliikenne reach eight percent of all thesis output.
-Terveys- and hyvinvointialat output shows strong absolute and relative growth.
-University output is becoming more balanced among top institutions.
+Metropolia remained the largest institutional producer
+Health and welfare reached 35.6% of total research output
+Business and legal studies continued their strong growth trend
+Computing and IT share increased to 8% of all theses
+Engineering sector saw a relative decrease in its total share
 
 &2024
-Metropolia maintains the top rank with substantial total volume.
-Turun ammattikorkeakoulu moves into second place for thesis output.
-Tietojenkäsittely and tietoliikenne see a sharp increase in research share.
-Terveys- and hyvinvointialat remains the dominant research field nationally.
-University standings show major shifts in the mid-tier rankings.
+Metropolia produced over 10% of total national thesis volume
+Health and welfare output surged to over 11,000 units
+Business and legal fields consolidated at nearly 23% share
+Computing and IT grew significantly to 8.6% of total output
+Engineering remained a core pillar with 18.5% of research
 
 &2025
-Metropolia strengthens its lead with over ten percent of output.
-Tietojenkäsittely and tietoliikenne reach a record share of nearly ten percent.
-Terveys- and hyvinvointialat remains the primary field for students.
-Turun and Laurea occupy the top positions after the leader.
-Long-term growth is evident in digital and health research sectors.
+Metropolia UAS maintained its top position with 3,704 theses
+Health and welfare reached a peak of 36% of all output
+Computing and IT continued rapid growth, reaching 9.4% share
+Business and administration remains the second largest academic sector
+Engineering represents roughly 18% of the total research volume

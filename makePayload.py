@@ -1,17 +1,7 @@
 import pandas as pd
 import numpy as np
-import json
 
-
-
-def load_data(path: str) -> pd.DataFrame:
-    """
-    Loads the data from the given path and performs two operations:
-    Counts the total number of theses by summing the "hankkeistetutOpinnaytetyot" and "opinnaytetyotEiHankkeistetut" columns.
-    Creates a new "field" column based on the "koulutusala02" column, and if that is missing or marked as "Tieto puuttuu", it uses the "okmOhjauksenAla" column instead.
-    If the field is still missing, it is filtered out.
-    A copy of the nonfiltered dataframe 'dfRaw' is returned for university-level analysis.
-    """
+def loadData(path: str) -> pd.DataFrame:
     df = pd.read_csv(path)
 
     
@@ -39,7 +29,7 @@ def load_data(path: str) -> pd.DataFrame:
 
     return df, dfRaw
 
-def build_university_table(df):
+def buildUniversityTable(df):
     uni = (
         df.groupby(["tilastovuosi", "ammattikorkeakoulu"])["total"]
         .sum()
@@ -51,7 +41,7 @@ def build_university_table(df):
 
     return uni
 
-def build_field_table(df):
+def buildFieldTable(df):
     fld = (
         df.groupby(["tilastovuosi", "field"])["total"]
         .sum()
@@ -63,7 +53,7 @@ def build_field_table(df):
 
     return fld
 
-def pivot_university(uni):
+def pivotUniversity(uni):
     pivot = uni.pivot(
         index="ammattikorkeakoulu",
         columns="tilastovuosi",
@@ -72,7 +62,7 @@ def pivot_university(uni):
 
     return pivot
 
-def pivot_field(fld):
+def pivotField(fld):
     pivot = fld.pivot(
         index="field",
         columns="tilastovuosi",
@@ -81,7 +71,7 @@ def pivot_field(fld):
 
     return pivot
 
-def add_deltas(pivot: pd.DataFrame):
+def addDeltas(pivot: pd.DataFrame):
     years = sorted(pivot.columns)
 
     for i in range(1, len(years)):
@@ -94,7 +84,7 @@ def add_deltas(pivot: pd.DataFrame):
 
     return pivot
 
-def build_payload(table, year, top_n=10):
+def buildPayload(table, year, top_n=10):
     data = table[table["tilastovuosi"] == year].copy()
 
     data = data.sort_values("total", ascending=False).head(top_n)
@@ -120,13 +110,14 @@ def constructLines(payload):
     return totalLine
 
 def makePayload(PATH_DATA, asDict = False):
-    df, dfRaw = load_data(PATH_DATA)
+    df, dfRaw = loadData(PATH_DATA)
 
-    uni = build_university_table(dfRaw)
-    fld = build_field_table(df)
+    uni = buildUniversityTable(dfRaw)
+    fld = buildFieldTable(df)
 
-    #uni_pivot = add_deltas(pivot_university(uni))
-    #fld_pivot = add_deltas(pivot_field(fld))
+    # Unused pivot tables with deltas, which was used for yearly difference in theses counts.
+    #uni_pivot = addDeltas(pivotUniversity(uni))
+    #fld_pivot = addDeltas(pivotField(fld))
 
     payloads = {}
     finalPayload = ""
@@ -134,12 +125,12 @@ def makePayload(PATH_DATA, asDict = False):
     for year in df["tilastovuosi"].unique():
         totalTheses[int(year)] = {
             "total": int(df[df["tilastovuosi"] == year]["total"].sum()),
-            "unis": build_payload(uni, year),
-            "fields": build_payload(fld, year)
+            "unis": buildPayload(uni, year),
+            "fields": buildPayload(fld, year)
         }
 
 
-        payload = "UNIVERSITIES\n" + constructLines(build_payload(uni, year)) + "\nFIELDS\n" + constructLines(build_payload(fld, year))
+        payload = "UNIVERSITIES\n" + constructLines(buildPayload(uni, year)) + "\nFIELDS\n" + constructLines(buildPayload(fld, year))
         finalPayload += str(year) + "\n" + payload
         payloads[int(year)] = payload
 

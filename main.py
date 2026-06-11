@@ -9,6 +9,7 @@ DATA = None
 
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
+
 @app.get("/")
 def root():
     return FileResponse("static/index.html")
