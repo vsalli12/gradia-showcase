@@ -1,0 +1,111 @@
+&2010
+Metropolia leads with a 10 percent volume share of total theses.
+Health and welfare fields dominate, representing nearly one third of all output.
+Engineering remains the second most significant field of academic production.
+Academic output is highly fragmented among the top ten participating institutions.
+Social and business studies round out the top three research focus areas.
+
+&2011
+Oulun ammattikorkeakoulu takes the top position in annual thesis production.
+Health and social fields maintain a strong lead in thematic volume.
+Engineering and business remain consistently high-volume research sectors.
+Output shares across the top ten universities are relatively balanced.
+Cultural studies show a minor decrease compared to the previous year.
+
+&2012
+Metropolia returns to the leading position for total thesis production.
+Health and social fields continue to capture over one third of share.
+The top four institutions produce nearly one third of all institutional output.
+Business and administration shows steady growth in research volume.
+Engineering studies account for roughly 24 percent of the total output.
+
+&2013
+Metropolia extends its leadership with a 10.7 percent share of total output.
+Health and social sciences remain the dominant research field by volume.
+The research landscape is characterized by stable institutional concentration at the top.
+Business and social science fields hold one fifth of the total share.
+The gap between the top institution and others continues to widen slightly.
+
+&2014
+Metropolia maintains dominance while other institutions exhibit minor fluctuations in rank.
+Health and welfare sectors comprise one third of total research production.
+Business and social science fields show a slight, steady increase in share.
+The distribution of research output remains heavily skewed toward a few sectors.
+Engineering output sees a marginal relative decline in percentage share.
+
+&2015
+Metropolia increases its influence, securing 11.1 percent of all theses.
+Health and social fields reach 34.4 percent of the total output share.
+Engineering and business fields together account for over 40 percent of production.
+Top-tier universities demonstrate clear, sustained growth in thesis output.
+Institutional output distribution is concentrated among ten primary providers.
+
+&2016
+Metropolia consolidates power, reaching 11.7 percent of the total volume.
+Health and social field nomenclature shifts, reflecting evolving reporting standards.
+Business, administration, and law emerge as a primary, high-growth research cluster.
+Institutional concentration increases, distancing the top universities from the remainder.
+Technical fields show a noticeable adjustment in relative thematic share.
+
+&2017
+Metropolia further grows its share, capturing 12.4 percent of total output.
+Health and welfare fields hit a new high at 37.2 percent share.
+Institutional concentration remains high, with the top four holding significant influence.
+Engineering share continues a slight downward trend in overall percentage.
+Small field categories remain marginal, comprising less than one percent each.
+
+&2018
+Metropolia remains the primary institution with 11.9 percent of total theses.
+Health and welfare continue to lead, representing over 36 percent of output.
+Business and engineering sectors maintain stable, high-volume contributions to the total.
+Tampere and Turku emerge as key competitive players in total volume.
+IT and computing fields begin to show clear, upward growth signals.
+
+&2019
+Metropolia output remains steady, holding over 11 percent of total research share.
+Health and welfare fields slightly decrease in share but remain dominant.
+IT and computing studies show continued growth, reaching 7.7 percent share.
+Institutional rankings at the top exhibit minimal volatility year over year.
+Business and engineering sectors demonstrate consistent, stable research activity levels.
+
+&2020
+Metropolia leads despite a marginal decline in total institutional share.
+Business and administration fields show a significant jump in overall production.
+Health and welfare reach a plateau, representing 34.4 percent of output.
+Institutional distribution remains highly stable among the top ten providers.
+IT and computing maintain their upward trajectory in thematic significance.
+
+&2021
+Metropolia maintains the lead while Haaga-Helia rises in institutional ranking.
+Health and welfare dominate, reclaiming over 35 percent of total share.
+Business and administration continues to capture nearly 23 percent of output.
+The top ten universities account for a consistent majority of total production.
+IT and computing fields remain a stable, high-growth sector of research.
+
+&2022
+Metropolia output share adjusts downward to 10.9 percent of total volume.
+Health and welfare sectors remain the primary focus of student research.
+Business and administration continues its high-volume output at 23.3 percent.
+Top-tier universities are increasingly bunched together in percentage share.
+Engineering and IT fields maintain consistent, long-term stability in total volume.
+
+&2023
+Metropolia retains top status while Laurea shows significant growth in share.
+Health and welfare output hits a new high in absolute volume.
+IT and computing reaches 8 percent share, signaling sustained digital focus.
+Institutional competition intensifies among the second through fifth-ranked universities.
+Engineering continues as the third largest pillar of research output.
+
+&2024
+Metropolia stays dominant but with a lower relative share of total output.
+Health and welfare fields consolidate, capturing 35.7 percent of all theses.
+IT and computing growth accelerates to 8.6 percent, reflecting industry trends.
+Institutional distribution is more balanced, with several universities nearing 7 percent.
+Engineering fields see a notable rebound in absolute thesis numbers.
+
+&2025
+Metropolia accounts for 10.4 percent of a larger total thesis pool.
+Health and welfare fields maintain absolute dominance at 36 percent share.
+IT and computing reach an all-time high of 9.4 percent share.
+Institutional output gap narrows, suggesting more distributed research volume trends.
+Business and health sectors combined represent over half of all research.

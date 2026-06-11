@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Vipunen Thesis Dashboard</title>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1400px;
+    margin: auto;
+    padding: 20px;
+}
+
+#loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-size: 1.1rem;
+    color: #888;
+}
+
+#main {
+    display: none;
+}
+
+#charts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    align-items: start;
+}
+
+#line-section {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#insights {
+    grid-column: 1;
+    grid-row: 2;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+#uni-section {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#field-section {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+h3 {
+    margin: 0 0 8px 0;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+li {
+    margin-bottom: 6px;
+}
+</style>
+
+</head>
+<body>
+
+<h2>Thesis Production by Year</h2>
+
+<div id="loading">Loading data…</div>
+
+<div id="main">
+    <div id="charts">
+        <div id="line-section">
+            <canvas id="lineChart"></canvas>
+        </div>
+        <div id="uni-section">
+            <h3>Top Universities</h3>
+            <canvas id="uniChart"></canvas>
+        </div>
+        <div id="field-section">
+            <h3>Fields of Study</h3>
+            <canvas id="fieldChart"></canvas>
+        </div>
+        <div id="insights">Hover a datapoint</div>
+    </div>
+</div>
+
+<script>
+
+function makeBarChart(canvasId, labels, values) {
+    return new Chart(document.getElementById(canvasId), {
+        type: "bar",
+        data: {
+            labels,
+            datasets: [{
+                data: values,
+                backgroundColor: "rgba(54, 162, 235, 0.7)"
+            }]
+        },
+        options: {
+            indexAxis: "y",
+            responsive: true,
+            plugins: {
+                legend: { display: false }
+            },
+            scales: {
+                x: { beginAtZero: true }
+            }
+        }
+    });
+}
+
+function updateBarChart(chart, items) {
+    chart.data.labels = items.map(x => x.name);
+    chart.data.datasets[0].data = items.map(x => x.value);
+    chart.update();
+}
+
+async function init() {
+
+    const response = await fetch("/api/data");
+    const data = await response.json();
+
+    const years = Object.keys(data).sort();
+    const values = years.map(year => data[year].theses);
+
+    const firstYear = years[0];
+
+    const uniChart = makeBarChart(
+        "uniChart",
+        data[firstYear].universities.map(x => x.name),
+        data[firstYear].universities.map(x => x.value)
+    );
+
+    const fieldChart = makeBarChart(
+        "fieldChart",
+        data[firstYear].fields.map(x => x.name),
+        data[firstYear].fields.map(x => x.value)
+    );
+
+    function updateBars(year) {
+        updateBarChart(uniChart, data[year].universities);
+        updateBarChart(fieldChart, data[year].fields);
+
+        const insight = data[year].insight;
+        document.getElementById("insights").innerHTML =
+            `<h3>${year}</h3><ul>` +
+            insight.map(x => `<li>${x}</li>`).join("") +
+            "</ul>";
+    }
+
+    new Chart(document.getElementById("lineChart"), {
+        type: "line",
+        data: {
+            labels: years,
+            datasets: [{
+                label: "Total Theses",
+                data: values,
+                hitRadius: 20,
+                hoverRadius: 8
+            }]
+        },
+        options: {
+            interaction: {
+                mode: "nearest",
+                intersect: true
+            },
+            onHover(event, elements) {
+                if (!elements.length) return;
+                const year = years[elements[0].index];
+                updateBars(year);
+            }
+        }
+    });
+
+    document.getElementById("loading").style.display = "none";
+    document.getElementById("main").style.display = "block";
+}
+
+init();
+
+</script>
+
+</body>
+</html>
