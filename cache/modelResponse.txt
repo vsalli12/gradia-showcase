@@ -1,111 +1,111 @@
 &2010
-Metropolia UAS led with 10% of total output
-Health and welfare dominated with nearly one-third of all thesis production
-Engineering and technology accounted for nearly one-quarter of output
-Business and administration studies maintained a steady 20% sector share
-Arts and culture output remained strong at 8.6% of total volume
+Metropolia University of Applied Sciences led with a 10 percent share of all theses.
+Health, welfare, and sports remained the dominant academic field, capturing one-third of all research.
+Engineering and transport fields maintained strong output, representing nearly a quarter of total publications.
+Business, administration, and social sciences continued as the third most popular field for students.
+Cultural and service sectors remained stable, providing significant contributions to the overall institutional research volume.
 
 &2011
-Oulu UAS displaced Metropolia for the top position
-Health and welfare share increased to 33% of total output
-Engineering remained the second largest field of study
-Arts and culture declined slightly from the previous year
-Business and administrative sciences sustained steady production levels
+Oulu University of Applied Sciences temporarily surged to the top position in annual thesis output.
+Health and welfare fields continued to expand, solidifying their status as the primary focus area.
+Engineering sectors remained steady, consistently producing one-quarter of the total annual research volume.
+Business and social sciences showed consistent growth in academic interest among university students.
+Smaller fields like humanities and education began to see minor shifts in their relative research impact.
 
 &2012
-Metropolia UAS reclaimed the position of highest thesis volume
-Health and welfare sector reached a 33.7% share of production
-Engineering and technology share experienced a slight decline to 23.8%
-Business and administration reached 20.8% of total output
-Education and humanities began showing consistent growth in absolute figures
+Metropolia University regained its position as the leading institution for thesis production in Finland.
+Health and welfare fields maintained dominance, accounting for over 33 percent of all submitted work.
+Business and administrative studies grew slightly, closing the gap with the engineering and technology sectors.
+Research output across major universities remained concentrated within the top five performing institutions.
+Cultural studies experienced a slight decline in relative share as interdisciplinary interests began to evolve.
 
 &2013
-Metropolia maintained its leading position among universities
-Health and welfare output remained the largest subject area
-Business and administration continued to grow in relative popularity
-Arts and culture experienced a slight uptick in volume
-Engineering output remained stable at 24% share
+Metropolia University continued its dominance, extending its lead over other major Finnish applied science institutions.
+Health, welfare, and sports fields maintained their core position, comprising one-third of all academic output.
+Business, administration, and law studies saw consistent demand, solidifying their role in the national curriculum.
+Engineering and technology output remained stable, continuing to form a significant pillar of university research.
+Cultural arts and service sectors held consistent, though smaller, shares of the total research landscape.
 
 &2014
-Metropolia remained the leading producer of academic theses
-Health and welfare maintained a one-third share of all research
-Business and administration reached a new high of 21.2%
-Computer science began showing initial signs of increasing interest
-Engineering sector output remained consistent across institutions
+Metropolia University maintained its status as the top producer of theses among all applied institutions.
+Health, welfare, and sports fields continued to lead, capturing approximately one-third of total research volume.
+Business and administrative sciences reached a new high, reflecting increased focus on social and economic studies.
+Engineering and technology sectors showed slight stabilization, remaining a core area for university degree programs.
+Natural sciences began to show a modest upward trend in the proportion of completed student theses.
 
 &2015
-Metropolia solidified its top ranking with an 11.1% share
-Health and welfare research reached 34.4% of total volume
-Engineering represented roughly a quarter of all thesis output
-Business and administration remained a critical pillar of study
-Tourism and services maintained a steady 6.5% market share
+Metropolia University remained the national leader, holding over 11 percent of all thesis production volume.
+Health and social fields accounted for over 34 percent of all research, marking a historical peak.
+Engineering sectors maintained a significant presence, though faced growing competition from social and business fields.
+Business and administrative studies showed robust growth, continuing to attract a large segment of students.
+Research output across the top ten universities remained highly consolidated among a few major institutions.
 
 &2016
-Metropolia extended its lead to 11.7% of total research output
-Health and wellbeing sectors consolidated as the primary field
-Business and administration studies shifted toward a more unified classification
-Engineering output showed a slight relative decline in sector share
-Computing and information technology emerged as a distinct major category
+Metropolia University continued to lead, with output growing to represent nearly 12 percent of all theses.
+Health and welfare fields remained the largest academic category, encompassing over one-third of total production.
+Business and administration emerged as the second largest field as classification systems began to modernize.
+Engineering and technology sectors experienced a relative decline in total share compared to earlier years.
+Information technology started to be tracked more distinctly, signaling its growing importance in academic research.
 
 &2017
-Metropolia UAS reached 12.4% of total institutional output
-Health and wellbeing research surged to 37.2% of all theses
-Engineering output experienced a decrease in relative sector dominance
-Computer science maintained a solid share of total research output
-Education and teacher training began gaining more institutional focus
+Metropolia University expanded its lead, accounting for 12.4 percent of total thesis output nationally.
+Health and welfare fields surged to represent 37 percent of all academic work produced this year.
+Business and administrative fields maintained a steady 21 percent share of the total research landscape.
+Engineering and technology output experienced a slight dip as institutions pivoted toward newer digital specializations.
+Information technology and communication studies became more prominent as dedicated fields within the degree programs.
 
 &2018
-Metropolia maintained the top institutional position
-Health and wellbeing continued to dominate with 36.7% share
-Engineering and technology regained some momentum in research output
-Computing and telecommunications grew to 7% of total volume
-Arts and culture research stabilized below 5%
+Metropolia University maintained its position at the top, supported by strong volume in health and technology.
+Health and welfare sectors remained dominant, comprising over 36 percent of the national thesis output.
+Business and administration continued to command a large share, remaining the second most popular field.
+Engineering output showed signs of recovery, with a slight increase in total thesis volume recorded.
+Information and communication technology continued to grow as an independent and significant area of research.
 
 &2019
-Metropolia remained the leader in total research volume
-Health and welfare output slightly decreased but stayed dominant
-Business and administration remained steady at 20.7%
-Computing and telecommunications saw continued steady growth
-Engineering remained the third largest field of study
+Metropolia University remained the primary academic leader, consistently producing over 3,000 theses annually.
+Health and welfare studies continued to dominate, despite a slight decrease in total percentage share.
+Business and administration maintained a strong 20 percent share, anchoring the national academic research output.
+Engineering remained a primary field, showing resilience despite changing industry and academic focus areas.
+Information and communication technology reached a new high, reflecting its expanding role in modern curriculum.
 
 &2020
-Metropolia led with 11.3% of total thesis production
-Business, administration, and law grew to 23.1% of output
-Health and wellbeing remained the largest field despite a small dip
-Computer science maintained a consistent 7.4% share
-Engineering began to decline relative to other expanding fields
+Metropolia University continued to lead, maintaining an 11 percent share of the total national output.
+Health and welfare fields remained central, even as total thesis volumes fluctuated during the year.
+Business and administration saw a notable increase, becoming a more prominent focus for university students.
+Engineering and technology fields maintained a stable presence within the top three academic categories.
+Information and communication technology continued to grow, solidifying its place as a key academic field.
 
 &2021
-Metropolia UAS continued its long-term dominance in volume
-Health and welfare saw a rebound to 35.8% of research
-Business and legal studies remained very strong at 22.8%
-Computing and IT continued its steady upward trajectory
-Engineering share stabilized below 20% of total production
+Metropolia University maintained its top position, with Haaga-Helia growing its share among the leading institutions.
+Health and welfare fields saw a significant resurgence, accounting for 35 percent of all thesis work.
+Business and administration remained the second most popular research field among Finnish university students.
+Engineering and technology continued to provide a stable foundation for the bulk of academic research projects.
+Information and communication technology maintained its upward trajectory as a critical area for degree completion.
 
 &2022
-Metropolia retained the top rank among Finnish universities
-Health and wellbeing remained the clear leader in subject distribution
-Business, administration, and law sustained a 23% share
-Computing continued to grow as a vital academic field
-Engineering and technology maintained a stable 19% presence
+Metropolia University remained the leader, though other institutions began to narrow the output gap.
+Health and welfare fields continued to represent the largest single category of academic research produced.
+Business and administration maintained strong performance, reflecting consistent student interest in economic and social sciences.
+Engineering and technology sectors showed steady output, remaining essential to the national thesis production profile.
+Information and communication technology continued to hold steady, supported by ongoing digital transformation in education.
 
 &2023
-Metropolia remained the largest institutional producer
-Health and welfare reached 35.6% of total research output
-Business and legal studies continued their strong growth trend
-Computing and IT share increased to 8% of all theses
-Engineering sector saw a relative decrease in its total share
+Metropolia University maintained its top position while Laurea University showed significant growth in thesis production.
+Health, welfare, and sports sectors continued to dominate, capturing over 35 percent of all research.
+Business, administration, and law fields reached a new peak in share, indicating high demand for graduates.
+Engineering fields remained core to the academic landscape despite a slight drop in relative total share.
+Information and communication technology reached 8 percent, marking its strongest year for thesis output to date.
 
 &2024
-Metropolia produced over 10% of total national thesis volume
-Health and welfare output surged to over 11,000 units
-Business and legal fields consolidated at nearly 23% share
-Computing and IT grew significantly to 8.6% of total output
-Engineering remained a core pillar with 18.5% of research
+Metropolia University reached a new high in total thesis volume, leading the national research landscape.
+Health and welfare remained the primary field, growing significantly in absolute numbers of finished theses.
+Business and administrative studies continued to climb, capturing nearly 23 percent of all student research.
+Engineering output remained robust, contributing significantly to the total volume despite changing educational priorities.
+Information and communication technology surged to 8.6 percent, reflecting rapid technological integration into university programs.
 
 &2025
-Metropolia UAS maintained its top position with 3,704 theses
-Health and welfare reached a peak of 36% of all output
-Computing and IT continued rapid growth, reaching 9.4% share
-Business and administration remains the second largest academic sector
-Engineering represents roughly 18% of the total research volume
+Metropolia University solidified its leadership, accounting for over 3,700 theses within the current academic year.
+Health and welfare sectors grew further, continuing their trend as the dominant research field nationally.
+Business, administration, and law studies accounted for 23 percent of all research produced this year.
+Information and communication technology reached a record 9.4 percent, signaling massive growth in digital expertise.
+Engineering remained a vital field, maintaining a large, stable share of total academic thesis output.

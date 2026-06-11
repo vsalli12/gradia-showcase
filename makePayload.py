@@ -139,10 +139,5 @@ def makePayload(PATH_DATA, asDict = False):
     return finalPayload, totalTheses
 
 
-
-
-
-
-
 if __name__ == "__main__":
     makePayload()

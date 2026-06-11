@@ -39,10 +39,14 @@ def generateDatapoints(payload, PATH_MODEL_RESPONSE):
         print("No API key. Using a pregenerated response.")
         return fallBackToCache(PATH_MODEL_RESPONSE)
 
-    
-    client = genai.Client(
-        api_key=KEY
-    )
+    try:
+        client = genai.Client(
+            api_key=KEY
+        )
+    except ValueError:
+        print("Invalid API key. Using a pregenerated response.")
+        return fallBackToCache(PATH_MODEL_RESPONSE)
+
     print("Awaiting Gemini response...")
     response = client.models.generate_content(
         model="gemini-3.1-flash-lite",
