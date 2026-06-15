@@ -16,7 +16,7 @@ cd polku/projektiin
 Esimerkiksi:
 
 ```bash
-cd C:\Users\Käyttäjä\Documents\vipunen-dashboard
+cd C:\Users\Käyttäjä\Documents\gradia-showcase
 ```
 
 ---
